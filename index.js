@@ -16,6 +16,26 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'motivation',
+        message: 'What was your motivation for building this project?'
+    },
+    {
+        type: 'input',
+        name: 'whybuild',
+        message: 'Why did you build this project?'
+    },
+    {
+        type: 'input',
+        name: 'projectproblem',
+        message: 'What problem does it solve?'
+    },
+    {
+        type: 'input',
+        name: 'learn',
+        message: 'What did you learn?'
+    },
+    {
+        type: 'input',
         name: 'installation',
         message: 'What are the installation instructions?'
     },
@@ -39,6 +59,26 @@ const questions = [
         type: 'input',
         name: 'tests',
         message: 'Provide test instructions:'
+    },
+    {
+        type: 'input',
+        name: 'collaborators',
+        message: 'Who collaborated with you on this project?'
+    },
+    {
+        type: 'input',
+        name: 'thirdparty',
+        message: 'If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.'
+    },
+    {
+        type: 'input',
+        name: 'tutorials',
+        message: 'If you followed tutorials, include links to those here as well'
+    },
+    {
+        type: 'input',
+        name: 'features',
+        message: 'If your project has a lot of features, list them here'
     },
     {
         type: 'input',
