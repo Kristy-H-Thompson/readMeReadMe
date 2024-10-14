@@ -2,7 +2,7 @@
 # Sample Project
 
 ## Description
-This is just an example of what you can do!
+This is just an example of what you can do! This was generated used this program using the prompts in the terminal. How cool is that? 
 
 -What was your motivation for creating this project?
  Sample motivation

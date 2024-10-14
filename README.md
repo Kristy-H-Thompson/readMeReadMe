@@ -8,6 +8,8 @@ Want to more time on your projects and less time writing tedious readMe files? N
 My motivation for creating this project was realizing that it takes a lot of time to create a quality ReadMe file. No matter how carefully I worked on my readMe file, I always forgot at least one important aspect that I should have included. With the prompts, this project makes creating a readMe file a breeze. 
 - What problem does it solve?
  This project solves the problem of forgetting sections while creating a profesional readMe file for github projects.
+- What did I learn? 
+Creating this project I learned how to use Node.js to create new files in my repository. I also learned about inquirer, and how it creates prompts in the terminal. I was impressed on the documentation that inquirer had, and I was able to follow it to create this project very easily. 
 
  ## Technologies
  - node.js
@@ -44,11 +46,11 @@ Watch this video for a short video tutorial of how to use this application
 - Contributors: Kristy Thompson
 
 Other Websites and reasources used in the creation of this project:
-Node.js: [Link](https://nodejs.org/en/download/package-manager)
-Inquirer: [Link](https://www.npmjs.com/package/inquirer)
-Fs-extra: [Link](https://www.npmjs.com/package/fs-extra)
-Profesional readMe Guide: [Link](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
-Video Submission Guide: [Link](https://coding-boot-camp.github.io/full-stack/computer-literacy/video-submission-guide)
+- Node.js: [Link](https://nodejs.org/en/download/package-manager)
+- Inquirer: [Link](https://www.npmjs.com/package/inquirer)
+- Fs-extra: [Link](https://www.npmjs.com/package/fs-extra)
+- Profesional readMe Guide: [Link](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+- Video Submission Guide: [Link](https://coding-boot-camp.github.io/full-stack/computer-literacy/video-submission-guide)
 
 ## Contributing
 You may submit a pull request at any time, however it will have to be approved before merging with the main branch.
