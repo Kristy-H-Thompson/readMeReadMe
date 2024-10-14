@@ -74,7 +74,7 @@ ${renderLicenseSection(data.license)}
 
 ## Credits
 Contributors:
-${data.contributors}
+${data.collaborators}
 
 Third-party assets that require attribution: 
 ${data.thirdparty}
