@@ -4,9 +4,8 @@
 ## Description
 Want to more time on your projects and less time writing tedious readMe files? Now you can quickly and easily generate a README file by using this command-line node.js application to generate one. This allows YOU, the project creator, to devote more time working on the project.
 
--What was your motivation for creating this project?
+- What was your motivation for creating this project?
 My motivation for creating this project was realizing that it takes a lot of time to create a quality ReadMe file. No matter how carefully I worked on my readMe file, I always forgot at least one important aspect that I should have included. With the prompts, this project makes creating a readMe file a breeze. 
-
 - What problem does it solve?
  This project solves the problem of forgetting sections while creating a profesional readMe file for github projects.
 
