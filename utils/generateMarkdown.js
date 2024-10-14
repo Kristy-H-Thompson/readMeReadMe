@@ -42,6 +42,13 @@ export function generateMarkdown(data) {
 ## Description
 ${data.description}
 
+-What was your motivation for creating this project?
+ ${data.motivation}
+-Why did you build this project? 
+ ${data.whybuild}
+- What problem does it solve?
+ ${data.projectproblem}
+
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
@@ -57,6 +64,15 @@ ${data.installation}
 ${data.usage}
 
 ${renderLicenseBadge(data.license)}
+
+##Credits
+Contributors:${data.contributors}
+
+Third-party assets that require attribution
+${data.thirdparty}
+
+Tutorials
+${data.tutorials}
 
 ## Contributing
 ${data.contributing}
