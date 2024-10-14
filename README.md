@@ -10,6 +10,13 @@ My motivation for creating this project was realizing that it takes a lot of tim
 - What problem does it solve?
  This project solves the problem of forgetting sections while creating a profesional readMe file for github projects.
 
+ ## Technologies
+ - node.js
+
+ ## Features
+ - Command line prompts to guide you through creating a profesional readMe file
+ - Automatic readMe file creation based upon your responses
+
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
