@@ -18,12 +18,13 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   if (!license) return '';
 
-  const links = { 
-    'MIT': 
-
+  const licenselinks = { 
+    'MIT': 'https://opensource.org/licenses/MIT',
+    'Apache 2.0': 'https://opensource.org/licenses/Apache-2.0',
+    'GPL 3.0': 'https://opensource.org/licenses/GPL-3.0',
+    'ISC': 'https://opensource.org/licenses/ISC'
   }
-return `
-`
+return licenselinks[license];
 }
 
 // TODO: Create a function that returns the license section of README
