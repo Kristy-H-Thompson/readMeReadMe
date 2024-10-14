@@ -49,8 +49,10 @@ ${data.description}
 
 -What was your motivation for creating this project?
  ${data.motivation}
+
 -Why did you build this project? 
  ${data.whybuild}
+
 - What problem does it solve?
  ${data.projectproblem}
 
@@ -70,13 +72,14 @@ ${data.usage}
 
 ${renderLicenseSection(data.license)}
 
-##Credits
-Contributors:${data.contributors}
+## Credits
+Contributors:
+${data.contributors}
 
-Third-party assets that require attribution
+Third-party assets that require attribution: 
 ${data.thirdparty}
 
-Tutorials
+Tutorials: 
 ${data.tutorials}
 
 ## Contributing
