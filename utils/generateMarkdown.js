@@ -56,6 +56,8 @@ ${data.description}
 - What problem does it solve? /n
  ${data.projectproblem}
 
+ ${renderLicenseSection(data.license)}
+
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
@@ -69,8 +71,6 @@ ${data.installation}
 
 ## Usage
 ${data.usage}
-
-${renderLicenseSection(data.license)}
 
 ## Credits
 Contributors:
