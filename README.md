@@ -1,5 +1,6 @@
 
 # readMeReadMe
+![License](https://img.shields.io/badge/License-MIT-yellow.svg "License")
 
 ## Description
 Want to more time on your projects and less time writing tedious readMe files? Now you can quickly and easily generate a README file by using this command-line node.js application to generate one. This allows YOU, the project creator, to devote more time working on the project.
