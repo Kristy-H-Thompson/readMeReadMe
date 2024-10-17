@@ -2,15 +2,15 @@
 # Example Readme
 
 ## Description
-This readme was created using Node JS. How cool is that?
+This readme was created using Node JS. How cool is that? This is just and example of what you can create. 
 
-- What was your motivation for creating this project? /n
+- What was your motivation for creating this project?
  Example motivation
 
-- Why did you build this project? /n
- Example 
+- Why did you build this project? 
+ Example reasons
 
-- What problem does it solve? /n
+- What problem does it solve?
  Creating a read me
 
 ## Table of Contents
