@@ -54,7 +54,7 @@ After you have installed node.js and all the project dependencies listed above, 
 
 ## Walkthrough Video
 Watch this video for a short video tutorial of how to use this application
-[Link](https://app.screencastify.com/v3/watch/H3Kc8DhAExAQmgKT6uCw)
+[Link](https://drive.google.com/file/d/1QUgfvckVZ2Tr9-Q2v6m2LtlwlEt21Bae/view?usp=sharing)
 
 ## License
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg "License")
