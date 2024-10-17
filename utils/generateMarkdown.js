@@ -47,13 +47,13 @@ export function generateMarkdown(data) {
 ## Description
 ${data.description}
 
--What was your motivation for creating this project?
+- What was your motivation for creating this project? /n
  ${data.motivation}
 
--Why did you build this project? 
+- Why did you build this project? /n
  ${data.whybuild}
 
-- What problem does it solve?
+- What problem does it solve? /n
  ${data.projectproblem}
 
 ## Table of Contents
