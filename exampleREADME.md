@@ -1,17 +1,17 @@
 
-# Sample Project
+# Example Readme
 
 ## Description
-This is just an example of what you can do! This was generated used this program using the prompts in the terminal. How cool is that? 
+This readme was created using Node JS. How cool is that?
 
--What was your motivation for creating this project?
- Sample motivation
+- What was your motivation for creating this project? /n
+ Example motivation
 
--Why did you build this project? 
- Sample reason
+- Why did you build this project? /n
+ Example 
 
-- What problem does it solve?
- Sample solution
+- What problem does it solve? /n
+ Creating a read me
 
 ## Table of Contents
 - [Installation](#installation)
@@ -22,10 +22,10 @@ This is just an example of what you can do! This was generated used this program
 - [Questions](#questions)
 
 ## Installation
-example installation instructions
+Example instalation instructions
 
 ## Usage
-example usage information
+Example usage
 
 ## License
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg "License")
@@ -34,22 +34,22 @@ This project is licensed under the [MIT](https://opensource.org/licenses/MIT) li
 
 ## Credits
 Contributors:
-example person
+Example contributors
 
 Third-party assets that require attribution: 
-example websites
+Example
 
 Tutorials: 
-example1
+Example Tutorials
 
 ## Contributing
-example guidelines
+Example on how to contribute
 
 ## Tests
-example test instructions
+Test examples
 
 ## Questions
 If you have any questions, feel free to reach out:
-- GitHub: [SampleName](https://github.com/SampleName)
-- Email: sampleemail@gmail.com
+- GitHub: [fdsafd](https://github.com/fdsafd)
+- Email: fdsafd
   
