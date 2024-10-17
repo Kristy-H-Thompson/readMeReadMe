@@ -1,6 +1,7 @@
 
 # Example Readme
 
+
 ## Description
 This readme was created using Node JS. How cool is that? This is just and example of what you can create. 
 
@@ -12,6 +13,11 @@ This readme was created using Node JS. How cool is that? This is just and exampl
 
 - What problem does it solve?
  Creating a read me
+
+ ## License
+![License](https://img.shields.io/badge/License-MIT-yellow.svg "License")
+  
+This project is licensed under the [MIT](https://opensource.org/licenses/MIT) license.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -26,11 +32,6 @@ Example instalation instructions
 
 ## Usage
 Example usage
-
-## License
-![License](https://img.shields.io/badge/License-MIT-yellow.svg "License")
-  
-This project is licensed under the [MIT](https://opensource.org/licenses/MIT) license.
 
 ## Credits
 Contributors:
