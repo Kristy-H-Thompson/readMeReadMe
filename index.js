@@ -6,8 +6,14 @@
 
 ------------------------------------------------------------------------------------------------------------ 
 */
+
+// Inquirer is a npm package with a collection of common interactive command line user interfaces.
 import inquirer from 'inquirer';
+
+// A Node.js built-in module, designed for file system operations on a server. 
 import fs from 'fs';
+
+// Importing in another javascript file in this project so that this file can run
 import { generateMarkdown } from './utils/generateMarkdown.js';
 
 
@@ -124,10 +130,12 @@ const questions = [
 ------------------------------------------------------------------------------------------------------------ 
 */
 
+// fileName: the name of the file you would like to create
+// data: the content you want to display in the readme file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) => {
-        if (err) throw err;
-        console.log('README.md has been generated!');
+        if (err) throw err; 
+        console.log('README.md has been generated!'); // Let the user know the file has been created
     });
 }
 
@@ -142,8 +150,8 @@ function writeToFile(fileName, data) {
 */
 function init() {
     inquirer.prompt(questions).then((answers) => {
-        const readmeContent = generateMarkdown(answers);
-        writeToFile('README.md', readmeContent);
+        const readmeContent = generateMarkdown(answers); // generate the content based on answers gathered in the command line
+        writeToFile('README.md', readmeContent); // call writetoFile to put that content into a new markdown file called README.md
     });
 }
 
