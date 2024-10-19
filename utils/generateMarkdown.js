@@ -1,8 +1,16 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+/* 
+------------------------------------------------------------------------------------------------------------
+
+    RENDER LICENSE BADGE FUNCTION - creates a license badge
+    // TODO: Create a function that returns a license badge based on which license is passed in - COMPLETE
+    // TODO: If there is no license, return an empty string - COMPLETE
+
+------------------------------------------------------------------------------------------------------------ 
+*/
 function renderLicenseBadge(license) {
   if (!license) return '';
   
+  // Create a liscenseBadge object
   const licenseBadge = {
       'MIT': 'https://img.shields.io/badge/License-MIT-yellow.svg',
       'Apache 2.0': 'https://img.shields.io/badge/License-Apache%202.0-blue.svg',
@@ -13,11 +21,25 @@ function renderLicenseBadge(license) {
   return licenseBadge[license];
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+
+
+
+
+
+
+
+/* 
+------------------------------------------------------------------------------------------------------------
+
+    RENDER LICENSE LINK FUNCTION - creates a link to where people can learn more about the license
+    // TODO: Create a function that returns the license link - COMPLETE
+    // TODO: If there is no license, return an empty string - COMPLETE
+
+------------------------------------------------------------------------------------------------------------ 
+*/
 function renderLicenseLink(license) {
   if (!license) return '';
-
+// Create a liscenselinks object
   const licenselinks = { 
     'MIT': 'https://opensource.org/licenses/MIT',
     'Apache 2.0': 'https://opensource.org/licenses/Apache-2.0',
@@ -27,18 +49,44 @@ function renderLicenseLink(license) {
 return licenselinks[license];
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+
+
+
+
+
+/* 
+------------------------------------------------------------------------------------------------------------
+
+    RENDER LICENSE SECTION FUNCTION - creates the license section to be used later
+  // TODO: Create a function that returns the license section of README - COMPLETE
+  // TODO: If there is no license, return an empty string - COMPLETE
+
+------------------------------------------------------------------------------------------------------------ 
+*/
+
 function renderLicenseSection(license) {
   if (!license) return '';
 
   const badge = renderLicenseBadge(license); // Call the badge function
-  const link = renderLicenseLink(license);   // Assuming you have the renderLicenseLink function defined
+  const link = renderLicenseLink(license);   // Call the license link function
 
   return `## License\n![License](${badge} "License")
   \nThis project is licensed under the [${license}](${link}) license.`;
 }
 
+
+
+
+
+
+/* 
+------------------------------------------------------------------------------------------------------------
+
+    GENERATE MARKDOWN FUNCTION - creates the content of the readme
+  // TODO: Create a function to generate markdown for README - COMPLETE
+
+------------------------------------------------------------------------------------------------------------ 
+*/
 // TODO: Create a function to generate markdown for README
 export function generateMarkdown(data) {
   return `

@@ -1,8 +1,28 @@
-// TODO: Include packages needed for this application
+/* 
+------------------------------------------------------------------------------------------------------------
+
+    IMPORTS NEEDED FOR THIS PROJECT
+    // TODO: Include packages needed for this application - COMPLETE
+
+------------------------------------------------------------------------------------------------------------ 
+*/
 import inquirer from 'inquirer';
 import fs from 'fs';
 import { generateMarkdown } from './utils/generateMarkdown.js';
-// TODO: Create an array of questions for user input
+
+
+
+
+
+/* 
+------------------------------------------------------------------------------------------------------------
+
+    QUESTIONS ARRAY
+    // TODO: Create an array of questions for user input - COMPLETE
+
+------------------------------------------------------------------------------------------------------------ 
+*/
+
 const questions = [
     {
         type: 'input',
@@ -92,7 +112,18 @@ const questions = [
     }
 ];
 
-// TODO: Create a function to write README file
+
+
+
+/* 
+------------------------------------------------------------------------------------------------------------
+
+    WRITE TO FILE FUNCTION - creates the readme file
+    // TODO: Create a function to write README file - COMPLETE
+
+------------------------------------------------------------------------------------------------------------ 
+*/
+
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) => {
         if (err) throw err;
@@ -100,7 +131,15 @@ function writeToFile(fileName, data) {
     });
 }
 
-// TODO: Create a function to initialize app
+
+/* 
+------------------------------------------------------------------------------------------------------------
+
+    INIT FUNCTION 
+    // TODO: Create a function to initialize app - COMPLETE
+
+------------------------------------------------------------------------------------------------------------ 
+*/
 function init() {
     inquirer.prompt(questions).then((answers) => {
         const readmeContent = generateMarkdown(answers);
