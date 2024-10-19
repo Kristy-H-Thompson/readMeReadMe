@@ -1,4 +1,3 @@
-
 # readMeReadMe
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg "License")
 
@@ -50,11 +49,14 @@ You must have node.js and required dependencies installed before running this pr
 - How to install fs-extra: [Link](https://www.npmjs.com/package/fs-extra)
 
 ## Usage
-After you have cloned this repository from github, installed node.js and all the project dependencies listed above, open the project in your favorite code editor. I used VS code. Open the command line terminal and use the command node index.js. Answer the questions as you are prompted, and a readMe file will be created for you. For more information watch the walkthrough video below.
+After you have cloned this repository from github, installed node.js and all the project dependencies listed above, open the project in your favorite code editor. I used VS code. Open the command line terminal and use the [command node index.js](/images/terminal.png). Answer the questions as you are prompted, and a [readMe file will be created for you](/images/readMe.png). For more information watch the walkthrough video below.
 
 ## Walkthrough Video
 Watch this video for a short video tutorial of how to use this application
 [Link](https://drive.google.com/file/d/1oNkxQCwqfxEuOqAcnTRG-RMFduHA2Mbu/view?usp=sharing)
+
+## Screen Shots
+
 
 ## License
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg "License")
@@ -79,4 +81,3 @@ N/A
 ## Questions
 If you have any questions, feel free to reach out:
 - GitHub: [Kristy-H-Thompson](https://github.com/Kristy-H-Thompson)
-  
