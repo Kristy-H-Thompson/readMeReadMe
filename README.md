@@ -51,11 +51,10 @@ You must have node.js and required dependencies installed before running this pr
 ## Usage
 After you have cloned this repository from github, installed node.js and all the project dependencies listed above, open the project in your favorite code editor. I used VS code. Open the command line terminal and use the [command node index.js](/images/terminal.png). Answer the questions as you are prompted, and a [readMe file will be created for you](/images/readMe.png). For more information watch the walkthrough video below.
 
+
 ## Walkthrough Video
 Watch this video for a short video tutorial of how to use this application
 [Link](https://drive.google.com/file/d/1oNkxQCwqfxEuOqAcnTRG-RMFduHA2Mbu/view?usp=sharing)
-
-## Screen Shots
 
 
 ## License
